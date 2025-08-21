@@ -20,7 +20,7 @@ const Cars = () => {
 
   const [filteredCars, setFilteredCars] = useState([]);
   const [displayedCars, setDisplayedCars] = useState([]);
-  const [carsToShow, setCarsToShow] = useState(6);
+  const [carsToShow, setCarsToShow] = useState(9999)
   const [isLoading, setIsLoading] = useState(false);
 
   const searchCarAvailability = async () => {

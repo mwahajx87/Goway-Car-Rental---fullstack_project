@@ -52,7 +52,7 @@ const Hero = () => {
                 <option key={city} value={city}>{city}</option>
               ))}
             </select>
-            <p className='px-1 text-sm text-gray-500'>
+            <p className='px-1 text-sm text-gray-600'>
               {pickupLocation ? pickupLocation : 'Please Select Location'}
             </p>
           </div>
@@ -66,7 +66,7 @@ const Hero = () => {
               type="date"
               id="pickup-date"
               min={new Date().toISOString().split('T')[0]}
-              className='text-sm text-gray-500'
+              className='text-sm text-gray-600'
               required
             />
           </div>
@@ -80,7 +80,7 @@ const Hero = () => {
               type="date"
               id="return-date"
               min={new Date().toISOString().split('T')[0]}
-              className='text-sm text-gray-500'
+              className='text-sm text-gray-600'
               required
             />
           </div>
@@ -101,7 +101,7 @@ const Hero = () => {
       <motion.img
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{duration:0.8, delay:0.6}}
+        transition={{ duration: 0.8, delay: 0.6 }}
         src={assets.main_car} alt="car" className='max-h-74' />
     </motion.div>
   )

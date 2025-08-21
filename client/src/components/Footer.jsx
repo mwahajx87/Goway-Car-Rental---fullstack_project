@@ -42,7 +42,7 @@ const Footer = () => {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.4 }}
-                    className='flex flex-wrap w-1/2 justify-between gap-8'>
+                    className='flex flex-wrap w-1/2  justify-between gap-8'>
                     <div>
                         <h2 className='text-base ont-medium text-gray-800 uppercase'>Quick Links</h2>
                         <ul className='mt-3 flex flex-col gap-2 text-sm'>
@@ -50,7 +50,6 @@ const Footer = () => {
                             <li><a href="#">Browser Cars</a></li>
                             <li><a href="#">List Your Car</a></li>
                             <li><a href="#">About Us</a></li>
-
                         </ul>
                     </div>
                     <div>
@@ -60,7 +59,6 @@ const Footer = () => {
                             <li><a href="#">Terms Of Services</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Insurance</a></li>
-
                         </ul>
                     </div>
                     <div>
@@ -70,7 +68,6 @@ const Footer = () => {
                             <li><a href="#">san francisco'CA 94107</a></li>
                             <li><a href="#">+923323613357</a></li>
                             <li><a href="#">info@example.com</a></li>
-
                         </ul>
                     </div>
 

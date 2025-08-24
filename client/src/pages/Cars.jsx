@@ -98,7 +98,7 @@ const Cars = () => {
         transition={{ duration: 0.5, delay: 0.6 }}
         className='px-6 md:px-16 lg:px-24 xl:px-32 mt-10'>
         <p className='text-gray-500 xl:px-20 max-w-7xl mx-auto'>Showing {displayedCars.length} Cars</p>
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-4 xl:px-20 max-w-7xl mx-auto'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-4 xl:px-20 max-w-10xl mx-auto'>
           {displayedCars.slice(0, carsToShow).map((car,index) => (
             <motion.div
               initial={{ opacity: 0, y: 20 }}

@@ -5,6 +5,10 @@
 *{
    font-family: "Outfit", sans-serif;
 }
+body{
+  padding-left: 0;
+  padding-right: 0;
+}
 
 @theme {
   --color-primaey:#2563EB;

@@ -97,8 +97,8 @@ const Cars = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.6 }}
         className='px-2 md:px-6 lg:px-9 xl:px-12 mt-10'>
-        <p className='text-gray-500 xl:px-3 max-w-7xl mx-auto'>Showing {displayedCars.length} Cars</p>
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-4 xl:px-3 max-w-7xl mx-auto'>
+        <p className='text-gray-500 xl:px-4 max-w-7xl mx-auto'>Showing {displayedCars.length} Cars</p>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-4 xl:px-4 max-w-7xl mx-auto'>
           {displayedCars.slice(0, carsToShow).map((car,index) => (
             <motion.div
               initial={{ opacity: 0, y: 20 }}

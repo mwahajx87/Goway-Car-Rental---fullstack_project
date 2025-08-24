@@ -15,7 +15,7 @@ const FeaturedSection = () => {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className='flex flex-col items-center py-24 px-4 md:mx-12 lg:px-18 xl:px-24'>
+            className='flex flex-col items-center py-24 px-2 md:mx-6 lg:px-9 xl:px-12'>
 
             <motion.div
                 initial={{ opacity: 0, y: 20 }}

@@ -106,7 +106,7 @@ To run this project locally:
 
 ---
 
-10## 📸 Screenshots (Sample)
+## 📸 Screenshot (Sample)
 <img width="1280" height="1024" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/aa2e7ec6-3775-43c8-9b77-a554b8e82b6f" />
 
 ---

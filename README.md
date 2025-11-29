@@ -106,15 +106,8 @@ To run this project locally:
 
 ---
 
-## 📸 Screenshots (Sample)
+10## 📸 Screenshots (Sample)
 <img width="1280" height="1024" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/aa2e7ec6-3775-43c8-9b77-a554b8e82b6f" />
-<img width="1280" height="1024" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/ef7c0df3-4769-4bfa-9b14-4e5e9894707a" />
-<img width="1280" height="1024" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/e8c7622c-4867-44e4-8ac6-44550b376be0" />
-<img width="1280" height="1024" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/e2f1544e-61c9-4744-85ec-c64f4efacf7a" />
-<img width="1280" height="1024" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/fdcdba19-5509-4050-aa0f-8678ebe3bd33" />
-<img width="1280" height="1024" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/b9885e15-0b19-4bfc-831e-b173b0fdf2fb" />
-<img width="1280" height="1024" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/49da89a3-59de-409f-afd1-f6073e457e27" />
-<img width="1280" height="1024" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/97b9a054-2775-4d0e-9f31-599320cc0a62" />
 
 ---
 

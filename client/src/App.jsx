@@ -15,6 +15,7 @@ import Layout from './pages/Owner/Layout';
 import Login from './components/Login'
 import { Toaster } from 'react-hot-toast';
 import { useAppContext } from './context/AppContext';
+import About_us from './pages/About_us';
 
 const App = () => {
   const { showLogin } = useAppContext();
@@ -30,6 +31,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/car-details/:id' element={<CarDetails />} />
         <Route path='/cars' element={<Car />} />
+        <Route path='/about-us' element={<About_us />} />
         <Route path='/my-bookings' element={<MyBooking />} />
         <Route path='owner' element={<Layout />}>
           <Route index element={<Dashboard />} />

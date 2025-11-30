@@ -51,11 +51,7 @@ const Navbar = () => {
         }`}
       >
         <div
-          className={`max-sm:fixed max-sm:h-screen max-sm:w-full max-sm:top-16 max-sm:border-t border-bordercolor right-0 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8 max-sm:p-4 transition-all duration-300 z-50 ${
-            open
-              ? "max-sm:translate-x-0 max-sm:bg-light"
-              : "max-sm:translate-x-full"
-          }`}
+          className={`flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8`}
           onClick={() => setOpen(!open)}
         >
           {menuLinks.map((link, index) => (

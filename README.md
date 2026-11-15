@@ -34,7 +34,7 @@ This project is developed as part of a **Final Year College Project**, showcasin
 - **Framer Motion** – Smooth animations and transitions
 - **React Router DOM** – Page navigation and routing
 
-### Backend (Optional Integration)
+### Backend
 
 - **Express.js** – For authentication and data handling
 - **MongoDB** – For storing car data, users, and bookings
